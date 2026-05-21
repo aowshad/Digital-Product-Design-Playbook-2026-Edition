@@ -2,24 +2,45 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Digital Product Design Playbook — AI Era 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="A practitioner's guide for product designers navigating intelligence-augmented experiences. By Al Aowshad Himel, ParseLab LLC.">
+<meta name="author" content="Al Aowshad Himel">
+<meta name="theme-color" content="#b84000">
+<title>Digital Product Design Playbook — AI Era 2026 · Al Aowshad Himel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- ══════════════════════════════════
+<!-- Reading progress bar -->
+<div class="progress-bar" aria-hidden="true"></div>
+
+<!-- Back to top -->
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- ════════════════════════════════════════════════════
      COVER
-══════════════════════════════════ -->
-<div class="cover" id="top">
+════════════════════════════════════════════════════ -->
+<header class="cover" id="top">
+  <!-- Decorative spinning ornament -->
+  <div class="cover-ornament" aria-hidden="true">
+    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="60" cy="60" r="58" fill="none" stroke="#b84000" stroke-width="0.5" stroke-dasharray="2 4"/>
+      <circle cx="60" cy="60" r="42" fill="none" stroke="#b84000" stroke-width="0.5"/>
+      <text x="60" y="60" text-anchor="middle" dominant-baseline="middle" font-family="Source Serif 4, serif" font-size="11" fill="#b84000" font-style="italic">DESIGN · 2026 · AI · CRAFT ·</text>
+      <circle cx="60" cy="60" r="3" fill="#b84000"/>
+    </svg>
+  </div>
+
   <div class="cover-rule"></div>
   <div class="cover-edition">Digital Product Design Playbook &nbsp;·&nbsp; 2026 Edition</div>
-  <div class="cover-title">Design in the<br><em>Age of AI</em></div>
-  <div class="cover-subtitle">A practitioner's guide for product designers navigating intelligence-augmented experiences</div>
+  <h1 class="cover-title">Design in the<br><em>Age of AI</em></h1>
+  <p class="cover-subtitle">A practitioner's guide for product designers navigating intelligence-augmented experiences</p>
 
   <div class="author-block">
-    <div class="author-monogram">AH</div>
+    <div class="author-monogram" title="Click me thrice 👀">AH</div>
     <div>
       <div class="author-label">Written by</div>
       <div class="author-name">Al Aowshad Himel</div>
@@ -43,7 +64,7 @@
   </div>
 
   <div class="toc-label">Contents</div>
-  <div class="toc-list">
+  <nav class="toc-list" aria-label="Table of contents">
     <a href="#ch1" class="toc-item">
       <span class="toc-num">01</span>
       <span class="toc-name">Foundations in the AI Era</span>
@@ -92,8 +113,8 @@
       <span class="toc-dots"></span>
       <span class="toc-page">Metrics that matter</span>
     </a>
-  </div>
-</div>
+  </nav>
+</header>
 
 <!-- STICKY NAV -->
 <nav class="sticky-nav" aria-label="Chapter navigation">
@@ -108,21 +129,55 @@
 </nav>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 1
-══════════════════════════════════ -->
-<div class="chapter" id="ch1">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 01</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 1 — FOUNDATIONS
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch1">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">01</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 01</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Foundations in the<br><em>AI Era</em></h2>
   </div>
-  <div class="chapter-title">Foundations in the<br><em>AI Era</em></div>
-  <div class="chapter-intro">Design has always been about solving human problems. AI doesn't change that mandate — it radically changes the tools, the medium, and the expectations on both sides of the screen.</div>
+  <p class="chapter-intro reveal">Design has always been about solving human problems. AI doesn't change that mandate — it radically changes the tools, the medium, and the expectations on both sides of the screen.</p>
+
+  <!-- Icon row preview -->
+  <div class="icon-row reveal-stagger">
+    <div class="icon-tile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 7v5l3 2"/>
+      </svg>
+      <div class="icon-tile-label">Then &amp; Now</div>
+    </div>
+    <div class="icon-tile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9c-2 0-4-.7-5.5-2"/>
+        <path d="M3 21v-6h6"/>
+      </svg>
+      <div class="icon-tile-label">Shifts</div>
+    </div>
+    <div class="icon-tile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/>
+      </svg>
+      <div class="icon-tile-label">Principles</div>
+    </div>
+    <div class="icon-tile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+        <circle cx="12" cy="12" r="3"/>
+      </svg>
+      <div class="icon-tile-label">Role</div>
+    </div>
+  </div>
 
   <h2>The Three Shifts Every Designer Must Understand</h2>
-  <p>Between 2022 and 2026, generative AI rewired the relationship between designers, their tools, and their users. Three fundamental shifts define this new reality:</p>
+  <p>Between 2022 and 2026, generative AI rewired the relationship between designers, their tools, and their users. Three fundamental shifts define this new reality. None of them are about the latest model release — they're about how the medium itself has changed.</p>
 
-  <div class="framework-grid">
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell">
       <div class="fw-num">01</div>
       <div class="fw-title">From screens to conversations</div>
@@ -140,7 +195,49 @@
     </div>
   </div>
 
-  <div class="insight">
+  <!-- Conceptual illustration: Shift diagram -->
+  <div class="illustration reveal">
+    <svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="shift-title">
+      <title id="shift-title">The shift from deterministic to probabilistic interfaces</title>
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#b84000"/>
+        </marker>
+      </defs>
+      <!-- LEFT: Deterministic -->
+      <g transform="translate(40,40)">
+        <text x="0" y="-12" font-family="JetBrains Mono, monospace" font-size="10" fill="#a09d96" letter-spacing="1.5">DETERMINISTIC</text>
+        <rect x="0" y="0" width="180" height="120" fill="none" stroke="#c8c3b8" stroke-width="1"/>
+        <rect x="20" y="20" width="140" height="14" fill="#1a1916"/>
+        <rect x="20" y="44" width="100" height="8" fill="#e4e0d8"/>
+        <rect x="20" y="58" width="120" height="8" fill="#e4e0d8"/>
+        <rect x="20" y="78" width="60" height="22" fill="#b84000"/>
+        <text x="50" y="92" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white" font-weight="600">SUBMIT</text>
+      </g>
+      <!-- ARROW -->
+      <g transform="translate(245,90)">
+        <line x1="0" y1="20" x2="100" y2="20" stroke="#b84000" stroke-width="1.5" marker-end="url(#arrow)"/>
+        <text x="50" y="10" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#b84000" letter-spacing="1">2022→2026</text>
+      </g>
+      <!-- RIGHT: Probabilistic -->
+      <g transform="translate(380,40)">
+        <text x="0" y="-12" font-family="JetBrains Mono, monospace" font-size="10" fill="#a09d96" letter-spacing="1.5">PROBABILISTIC</text>
+        <rect x="0" y="0" width="180" height="120" fill="none" stroke="#c8c3b8" stroke-width="1"/>
+        <circle cx="30" cy="30" r="6" fill="#1a5c3e" opacity="0.7"/>
+        <rect x="44" y="24" width="110" height="6" fill="#e4e0d8" rx="3"/>
+        <rect x="44" y="34" width="80" height="6" fill="#e4e0d8" rx="3"/>
+        <circle cx="30" cy="55" r="6" fill="#b84000" opacity="0.7"/>
+        <rect x="44" y="49" width="120" height="6" fill="#e4e0d8" rx="3"/>
+        <rect x="44" y="59" width="60" height="6" fill="#e4e0d8" rx="3"/>
+        <rect x="44" y="69" width="90" height="6" fill="#e4e0d8" rx="3"/>
+        <rect x="20" y="92" width="140" height="20" fill="none" stroke="#c8c3b8" stroke-dasharray="2 2"/>
+        <text x="90" y="106" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Ask anything…</text>
+      </g>
+    </svg>
+    <div class="illustration-caption">Fig. 1 · The shift in interface paradigm</div>
+  </div>
+
+  <div class="insight reveal">
     <div class="insight-label">Core Principle — from "The Design of Everyday Things"</div>
     <p>"Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so well that the design is invisible." — Don Norman. AI magnifies this: when it works perfectly, users feel smart. When it fails, they feel betrayed.</p>
   </div>
@@ -148,28 +245,28 @@
   <h2>What Has Not Changed</h2>
   <p>Before chasing every new AI capability, anchor yourself in what remains constant. The principles below survived the shift from print to digital, from desktop to mobile, and from native to web. They will survive AI too.</p>
 
-  <div class="principle-block">
+  <div class="principle-block reveal">
     <div class="principle-num">1</div>
     <div class="principle-content">
       <div class="principle-title">Empathy is still the superpower</div>
       <p class="principle-body">No model can replace a designer who genuinely understands what a person is trying to accomplish, what they fear, and what would delight them. AI accelerates your output. Empathy determines whether that output is worth anything.</p>
     </div>
   </div>
-  <div class="principle-block">
+  <div class="principle-block reveal">
     <div class="principle-num">2</div>
     <div class="principle-content">
       <div class="principle-title">Context is everything</div>
       <p class="principle-body">From Jakob Nielsen's usability heuristics to Christopher Alexander's pattern language — context always wins. An AI feature that's brilliant for one user segment might be confusing for another. Always design for your actual users, not the median user.</p>
     </div>
   </div>
-  <div class="principle-block">
+  <div class="principle-block reveal">
     <div class="principle-num">3</div>
     <div class="principle-content">
       <div class="principle-title">Cognitive load is finite</div>
       <p class="principle-body">Per John Sweller's Cognitive Load Theory (adapted for UX by many — including George Miller's work on working memory limits), human attention is scarce. AI-rich interfaces often increase complexity. Your job is still to reduce friction, not add wonder for wonder's sake.</p>
     </div>
   </div>
-  <div class="principle-block">
+  <div class="principle-block reveal">
     <div class="principle-num">4</div>
     <div class="principle-content">
       <div class="principle-title">Trust is built over many micro-moments</div>
@@ -177,16 +274,29 @@
     </div>
   </div>
 
-  <div class="scenario">
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
       <span class="scenario-title-bar">Notion AI — When capability outpaces clarity</span>
     </div>
+    <div class="scenario-illustration" aria-hidden="true">
+      <svg viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="20" width="320" height="60" fill="white" stroke="#c8c3b8"/>
+        <rect x="32" y="32" width="180" height="8" fill="#1a1916"/>
+        <rect x="32" y="46" width="240" height="6" fill="#e4e0d8"/>
+        <rect x="32" y="58" width="200" height="6" fill="#e4e0d8"/>
+        <g transform="translate(232,30)">
+          <rect width="92" height="40" fill="#fdf0e8" stroke="#b84000" stroke-dasharray="3 2"/>
+          <text x="46" y="18" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#b84000" font-weight="600">AI SUGGESTION</text>
+          <text x="46" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#52504a" font-style="italic">"continue writing…"</text>
+        </g>
+      </svg>
+    </div>
     <div class="scenario-body">
       <p>When Notion added AI writing features in 2023, early versions surfaced AI suggestions that interrupted writing flow. Users felt the AI was "taking over." The design team iterated to make AI assistance explicitly opt-in — a small design choice with massive trust implications.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Lesson</div>
+        <div class="scenario-section-label">↳ Lesson</div>
         <p>Showing users where AI ends and their content begins isn't just an ethical concern — it's a fundamental UX problem. Control and transparency are features.</p>
       </div>
     </div>
@@ -195,80 +305,160 @@
   <h2>The Designer's Role in AI Products</h2>
   <p>A useful mental model: think of yourself as the <strong>translator between human intent and machine capability</strong>. Engineers build what's possible. Product managers define what's valuable. Designers determine what's usable, trustworthy, and humane.</p>
 
-  <div class="callout-gold">
+  <div class="callout-gold reveal">
     <div class="callout-label">From "Designing with the Mind in Mind" — Jeff Johnson</div>
     <p>The brain perceives patterns before it processes details. In AI interfaces, users form a "mental model" of the AI in the first 30 seconds. Design the first interaction to build the right model — not just to showcase capability.</p>
   </div>
 
   <h2>Key Reference Works</h2>
-  <div class="book-ref">
-    <div class="book-spine red"></div>
-    <div><div class="book-title">The Design of Everyday Things — Don Norman</div><div class="book-author">Basic Books, Revised Edition 2013</div><div class="book-takeaway">Affordances, signifiers, and feedback loops remain the grammar of all interaction design — AI or not.</div></div>
+  <div class="book-list reveal-stagger">
+    <div class="book-ref">
+      <div class="book-spine red"></div>
+      <div>
+        <div class="book-title">The Design of Everyday Things — Don Norman</div>
+        <div class="book-author">Basic Books, Revised Edition 2013</div>
+        <div class="book-takeaway">Affordances, signifiers, and feedback loops remain the grammar of all interaction design — AI or not.</div>
+      </div>
+    </div>
+    <div class="book-ref">
+      <div class="book-spine blue"></div>
+      <div>
+        <div class="book-title">Designing Human-Centric AI Experiences — Akshay Kore</div>
+        <div class="book-author">Apress, 2021</div>
+        <div class="book-takeaway">Introduces the concept of "AI design patterns" — reusable solutions to recurring human-AI interaction challenges.</div>
+      </div>
+    </div>
+    <div class="book-ref">
+      <div class="book-spine green"></div>
+      <div>
+        <div class="book-title">Human Compatible — Stuart Russell</div>
+        <div class="book-author">Viking, 2019</div>
+        <div class="book-takeaway">A computer scientist's argument for why AI must defer to human preferences — essential for understanding why AI UX is fundamentally an alignment problem.</div>
+      </div>
+    </div>
   </div>
-  <div class="book-ref">
-    <div class="book-spine blue"></div>
-    <div><div class="book-title">Designing Human-Centric AI Experiences — Akshay Kore</div><div class="book-author">Apress, 2021</div><div class="book-takeaway">Introduces the concept of "AI design patterns" — reusable solutions to recurring human-AI interaction challenges.</div></div>
-  </div>
-  <div class="book-ref">
-    <div class="book-spine green"></div>
-    <div><div class="book-title">Human Compatible — Stuart Russell</div><div class="book-author">Viking, 2019</div><div class="book-takeaway">A computer scientist's argument for why AI must defer to human preferences — essential for understanding why AI UX is fundamentally an alignment problem.</div></div>
-  </div>
-</div>
+</section>
 
-<hr class="divider-chapter">
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 2
-══════════════════════════════════ -->
-<div class="chapter" id="ch2">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 02</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 2 — RESEARCH
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch2">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">02</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 02</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Research &amp;<br><em>Discovery</em></h2>
   </div>
-  <div class="chapter-title">Research &amp;<br><em>Discovery</em></div>
-  <div class="chapter-intro">Research is the act of manufacturing clarity out of uncertainty. AI gives you unprecedented speed — but speed without rigor produces confident nonsense. Know when to use which tool.</div>
+  <p class="chapter-intro reveal">Research is the act of manufacturing clarity out of uncertainty. AI gives you unprecedented speed — but speed without rigor produces confident nonsense. Know when to use which tool.</p>
 
   <h2>The Research Landscape</h2>
   <p>Research methods fall on two axes: quantitative vs. qualitative, and attitudinal vs. behavioral. The best researchers triangulate across all four quadrants. AI currently excels in the quantitative-attitudinal zone and struggles with nuanced behavioral observation.</p>
 
-  <table class="comparison">
-    <thead>
-      <tr><th>Method</th><th>Type</th><th>AI-augmentable?</th><th>Best for</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>User interviews</td><td>Qualitative / Attitudinal</td><td class="col-warn">Partial</td><td>Motivations, mental models, emotional context</td></tr>
-      <tr><td>Usability testing</td><td>Qualitative / Behavioral</td><td class="col-warn">Partial</td><td>Finding where users struggle in real tasks</td></tr>
-      <tr><td>Surveys</td><td>Quantitative / Attitudinal</td><td class="col-good">Yes</td><td>Measuring attitudes at scale</td></tr>
-      <tr><td>Analytics / Heatmaps</td><td>Quantitative / Behavioral</td><td class="col-good">Yes</td><td>What users actually do vs. what they say</td></tr>
-      <tr><td>Diary studies</td><td>Qualitative / Behavioral</td><td class="col-warn">Partial</td><td>Longitudinal behavior in real contexts</td></tr>
-      <tr><td>Contextual inquiry</td><td>Qualitative / Behavioral</td><td>No</td><td>Deep situational understanding</td></tr>
-    </tbody>
-  </table>
+  <!-- Quadrant illustration -->
+  <div class="illustration reveal">
+    <svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="quadrant-title">
+      <title id="quadrant-title">The research methods quadrant</title>
+      <!-- Axes -->
+      <line x1="60" y1="160" x2="440" y2="160" stroke="#c8c3b8" stroke-width="1"/>
+      <line x1="250" y1="40" x2="250" y2="280" stroke="#c8c3b8" stroke-width="1"/>
+      <!-- Axis labels -->
+      <text x="450" y="164" font-family="JetBrains Mono, monospace" font-size="9" fill="#a09d96" letter-spacing="1">QUAL →</text>
+      <text x="20" y="164" font-family="JetBrains Mono, monospace" font-size="9" fill="#a09d96" letter-spacing="1">← QUANT</text>
+      <text x="250" y="28" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#a09d96" letter-spacing="1">ATTITUDINAL</text>
+      <text x="250" y="300" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="#a09d96" letter-spacing="1">BEHAVIORAL</text>
+      <!-- Quadrant boxes / methods -->
+      <g transform="translate(80,60)">
+        <rect width="140" height="70" fill="#eaeff8" stroke="#183562" stroke-width="0.5" rx="2"/>
+        <text x="70" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#183562">Surveys</text>
+        <text x="70" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">A/B tests</text>
+        <text x="70" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">NPS · CSAT</text>
+      </g>
+      <g transform="translate(280,60)">
+        <rect width="140" height="70" fill="#fdf0e8" stroke="#b84000" stroke-width="0.5" rx="2"/>
+        <text x="70" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#b84000">Interviews</text>
+        <text x="70" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Focus groups</text>
+        <text x="70" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Card sorts</text>
+      </g>
+      <g transform="translate(80,190)">
+        <rect width="140" height="70" fill="#eaf4ee" stroke="#1a5c3e" stroke-width="0.5" rx="2"/>
+        <text x="70" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#1a5c3e">Analytics</text>
+        <text x="70" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Heatmaps</text>
+        <text x="70" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Funnels</text>
+      </g>
+      <g transform="translate(280,190)">
+        <rect width="140" height="70" fill="#faf4e0" stroke="#a07800" stroke-width="0.5" rx="2"/>
+        <text x="70" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#a07800">Usability tests</text>
+        <text x="70" y="38" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Diary studies</text>
+        <text x="70" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Contextual inquiry</text>
+      </g>
+    </svg>
+    <div class="illustration-caption">Fig. 2 · Research methods across four quadrants</div>
+  </div>
+
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead>
+        <tr><th>Method</th><th>Type</th><th>AI-augmentable?</th><th>Best for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>User interviews</td><td>Qualitative / Attitudinal</td><td class="col-warn">Partial</td><td>Motivations, mental models, emotional context</td></tr>
+        <tr><td>Usability testing</td><td>Qualitative / Behavioral</td><td class="col-warn">Partial</td><td>Finding where users struggle in real tasks</td></tr>
+        <tr><td>Surveys</td><td>Quantitative / Attitudinal</td><td class="col-good">Yes</td><td>Measuring attitudes at scale</td></tr>
+        <tr><td>Analytics / Heatmaps</td><td>Quantitative / Behavioral</td><td class="col-good">Yes</td><td>What users actually do vs. what they say</td></tr>
+        <tr><td>Diary studies</td><td>Qualitative / Behavioral</td><td class="col-warn">Partial</td><td>Longitudinal behavior in real contexts</td></tr>
+        <tr><td>Contextual inquiry</td><td>Qualitative / Behavioral</td><td>No</td><td>Deep situational understanding</td></tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2>AI-Augmented Research Workflow</h2>
-  <div class="process-step">
-    <div class="step-num">01</div>
-    <div><div class="step-title">Screener & Recruitment Brief</div><p class="step-desc">Use AI to draft screener surveys and recruitment criteria from your research goals. Prompt: "Write a screener to recruit users who have used AI-assisted writing tools at least 3 times but are not power users."</p></div>
-  </div>
-  <div class="process-step">
-    <div class="step-num">02</div>
-    <div><div class="step-title">Interview Guide Generation</div><p class="step-desc">AI can draft a discussion guide, but you must edit it. The best questions are born from a specific hypothesis — AI doesn't have your context or project history.</p></div>
-  </div>
-  <div class="process-step">
-    <div class="step-num">03</div>
-    <div><div class="step-title">Transcription & First-Pass Synthesis</div><p class="step-desc">Tools like Dovetail, Grain, or Otter.ai transcribe and auto-tag themes. Treat AI-identified themes as hypotheses, not conclusions. Always read raw transcripts.</p></div>
-  </div>
-  <div class="process-step">
-    <div class="step-num">04</div>
-    <div><div class="step-title">Affinity Mapping (AI-assisted)</div><p class="step-desc">FigJam's AI clustering can group hundreds of sticky notes in seconds. The human job is curation — naming clusters, merging redundant themes, spotting the insight hiding between clusters.</p></div>
-  </div>
-  <div class="process-step">
-    <div class="step-num">05</div>
-    <div><div class="step-title">Insight → Opportunity Translation</div><p class="step-desc">Insights describe what is true. Opportunities describe what could be better. This translation requires human judgment — AI can suggest framing but cannot decide what matters.</p></div>
+  <p>Modern research is no longer a sprint of solo synthesis. It's a series of AI-assisted micro-steps, each requiring human judgment at the inflection points where context matters most.</p>
+
+  <div class="process-steps reveal-stagger">
+    <div class="process-step">
+      <div class="step-num">01</div>
+      <div>
+        <div class="step-title">Screener &amp; Recruitment Brief</div>
+        <p class="step-desc">Use AI to draft screener surveys and recruitment criteria from your research goals. Prompt: "Write a screener to recruit users who have used AI-assisted writing tools at least 3 times but are not power users."</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">02</div>
+      <div>
+        <div class="step-title">Interview Guide Generation</div>
+        <p class="step-desc">AI can draft a discussion guide, but you must edit it. The best questions are born from a specific hypothesis — AI doesn't have your context or project history.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">03</div>
+      <div>
+        <div class="step-title">Transcription &amp; First-Pass Synthesis</div>
+        <p class="step-desc">Tools like Dovetail, Grain, or Otter.ai transcribe and auto-tag themes. Treat AI-identified themes as hypotheses, not conclusions. Always read raw transcripts.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">04</div>
+      <div>
+        <div class="step-title">Affinity Mapping (AI-assisted)</div>
+        <p class="step-desc">FigJam's AI clustering can group hundreds of sticky notes in seconds. The human job is curation — naming clusters, merging redundant themes, spotting the insight hiding between clusters.</p>
+      </div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">05</div>
+      <div>
+        <div class="step-title">Insight → Opportunity Translation</div>
+        <p class="step-desc">Insights describe what is true. Opportunities describe what could be better. This translation requires human judgment — AI can suggest framing but cannot decide what matters.</p>
+      </div>
+    </div>
   </div>
 
-  <div class="prompt-box">
+  <div class="prompt-box reveal">
+    <button class="prompt-copy" aria-label="Copy prompt">Copy</button>
     <div class="prompt-label">Sample AI Prompt — Interview Synthesis</div>
     <div class="prompt-text">Here are 6 interview transcripts from users of our expense tracking app.
 Each user was asked about their biggest pain points with expense reporting.
@@ -283,75 +473,114 @@ Transcripts: [paste here]</div>
     <div class="prompt-note">Pro tip: Ask for contradictions explicitly. AI models are trained to find consensus; outliers often hold the most interesting design opportunities.</div>
   </div>
 
-  <div class="insight insight-green">
+  <div class="insight insight-green reveal">
     <div class="insight-label">Framework — from "Interviewing Users" by Steve Portigal</div>
     <p>"The best interview questions are deceptively simple. 'Tell me about the last time you...' opens doors that 'Do you ever...' closes." Behavioral questions about past actions predict future behavior better than hypothetical questions.</p>
   </div>
 
-  <h3>Good vs. Weak Research Questions</h3>
-  <table class="comparison">
-    <thead><tr><th>Weak Question</th><th>Stronger Alternative</th><th>Why Better</th></tr></thead>
-    <tbody>
-      <tr><td>Do users like dark mode?</td><td>In what contexts do users switch display modes, and what triggers that decision?</td><td>Behavioral context &gt; binary preference</td></tr>
-      <tr><td>Is our onboarding good?</td><td>Where do users drop off during onboarding and what did they expect instead?</td><td>Specific, measurable, actionable</td></tr>
-      <tr><td>What do users want?</td><td>What are the top 3 unmet jobs users try to accomplish with this product?</td><td>Uses Jobs-to-be-Done framing</td></tr>
-    </tbody>
-  </table>
+  <h3>Good vs. weak research questions</h3>
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead><tr><th>Weak Question</th><th>Stronger Alternative</th><th>Why Better</th></tr></thead>
+      <tbody>
+        <tr><td>Do users like dark mode?</td><td>In what contexts do users switch display modes, and what triggers that decision?</td><td>Behavioral context &gt; binary preference</td></tr>
+        <tr><td>Is our onboarding good?</td><td>Where do users drop off during onboarding and what did they expect instead?</td><td>Specific, measurable, actionable</td></tr>
+        <tr><td>What do users want?</td><td>What are the top 3 unmet jobs users try to accomplish with this product?</td><td>Uses Jobs-to-be-Done framing</td></tr>
+      </tbody>
+    </table>
+  </div>
 
-  <div class="scenario">
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
       <span class="scenario-title-bar">Spotify Wrapped — Research-led personalization</span>
     </div>
+    <div class="scenario-illustration" aria-hidden="true">
+      <svg viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="60" y="15" width="80" height="70" fill="#1a5c3e" rx="4"/>
+        <text x="100" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="white">YOUR 2026</text>
+        <text x="100" y="56" text-anchor="middle" font-family="Source Serif 4, serif" font-size="22" font-style="italic" fill="white">Wrapped</text>
+        <text x="100" y="72" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#9fcfb5">12,847 minutes</text>
+        <rect x="160" y="15" width="80" height="70" fill="#fdf0e8" stroke="#b84000" stroke-width="0.5" rx="4"/>
+        <text x="200" y="35" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="#b84000" letter-spacing="1">DATA</text>
+        <text x="200" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#52504a">screenshot</text>
+        <text x="200" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#52504a">behavior</text>
+        <line x1="145" y1="50" x2="155" y2="50" stroke="#b84000" stroke-width="1"/>
+        <rect x="260" y="15" width="80" height="70" fill="#eaf4ee" stroke="#1a5c3e" stroke-width="0.5" rx="4"/>
+        <text x="300" y="35" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="#1a5c3e" letter-spacing="1">INSIGHT</text>
+        <text x="300" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#52504a">music as</text>
+        <text x="300" y="67" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#52504a">identity</text>
+        <line x1="245" y1="50" x2="255" y2="50" stroke="#1a5c3e" stroke-width="1"/>
+      </svg>
+    </div>
     <div class="scenario-body">
       <p>Spotify's annual Wrapped feature began as an internal data experiment. User researchers noticed that users talked about "their music personality" in interviews — an attitudinal insight. Behavioral data showed users screenshotting their listening stats. The combination revealed an unmet need: music as identity expression.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Design Lesson</div>
+        <div class="scenario-section-label">↳ Design Lesson</div>
         <p>The most valuable research insight often lives at the intersection of what users say (attitudinal) and what they do (behavioral). Neither alone would have revealed the Wrapped opportunity.</p>
       </div>
     </div>
   </div>
 
   <h2>Research Tools in 2026</h2>
-  <div class="tool-row">
-    <div class="tool-card"><div class="tool-name">Dovetail</div><div class="tool-tag ai">AI-powered</div><p class="tool-desc">AI-assisted research repository. Tags themes across interviews, surfaces patterns, links insights to evidence.</p></div>
-    <div class="tool-card"><div class="tool-name">Maze</div><div class="tool-tag research">Research</div><p class="tool-desc">Unmoderated usability testing at scale. AI generates task success metrics and compares against benchmarks.</p></div>
-    <div class="tool-card"><div class="tool-name">Grain</div><div class="tool-tag ai">AI-powered</div><p class="tool-desc">Records, transcribes, and summarizes user interviews. Creates shareable clip reels for stakeholders.</p></div>
-    <div class="tool-card"><div class="tool-name">Lookback</div><div class="tool-tag research">Research</div><p class="tool-desc">Moderated and unmoderated research sessions. Strong for contextual observation, remote or in-person.</p></div>
+  <div class="tool-row reveal-stagger">
+    <div class="tool-card">
+      <div class="tool-name">Dovetail</div>
+      <div class="tool-tag ai">AI-powered</div>
+      <p class="tool-desc">AI-assisted research repository. Tags themes across interviews, surfaces patterns, links insights to evidence.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">Maze</div>
+      <div class="tool-tag research">Research</div>
+      <p class="tool-desc">Unmoderated usability testing at scale. AI generates task success metrics and compares against benchmarks.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">Grain</div>
+      <div class="tool-tag ai">AI-powered</div>
+      <p class="tool-desc">Records, transcribes, and summarizes user interviews. Creates shareable clip reels for stakeholders.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">Lookback</div>
+      <div class="tool-tag research">Research</div>
+      <p class="tool-desc">Moderated and unmoderated research sessions. Strong for contextual observation, remote or in-person.</p>
+    </div>
   </div>
-</div>
+</section>
 
-<hr class="divider-chapter">
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 3
-══════════════════════════════════ -->
-<div class="chapter" id="ch3">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 03</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 3 — PROBLEM FRAMING
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch3">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">03</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 03</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Problem<br><em>Framing</em></h2>
   </div>
-  <div class="chapter-title">Problem<br><em>Framing</em></div>
-  <div class="chapter-intro">The quality of your solution is bounded by the quality of your problem statement. A poorly framed problem guarantees a well-executed solution to the wrong thing.</div>
+  <p class="chapter-intro reveal">The quality of your solution is bounded by the quality of your problem statement. A poorly framed problem guarantees a well-executed solution to the wrong thing.</p>
 
   <h2>The How Might We Framework (Evolved)</h2>
   <p>The classic IDEO "How Might We" question remains one of the most powerful problem-framing tools. In the AI era, it requires an additional layer: distinguishing problems that AI can meaningfully address from those that require human design solutions.</p>
 
-  <div class="framework-grid">
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--accent)">Narrow</div>
+      <div class="fw-num" style="color:var(--accent)">narrow</div>
       <div class="fw-title">HMW make the loading spinner faster?</div>
       <div class="fw-desc">Focuses on a symptom, not the underlying problem. Limits creative space.</div>
     </div>
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--ink-faint)">Broad</div>
+      <div class="fw-num" style="color:var(--ink-faint)">broad</div>
       <div class="fw-title">HMW make our app more delightful?</div>
       <div class="fw-desc">Too vague to inspire focused ideation. Could mean anything.</div>
     </div>
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--accent2)">Right</div>
+      <div class="fw-num" style="color:var(--accent2)">right</div>
       <div class="fw-title">HMW help anxious first-time investors make a first trade without feeling overwhelmed?</div>
       <div class="fw-desc">Names the user, context, emotion, and behavior. Specific enough to generate solutions.</div>
     </div>
@@ -360,13 +589,13 @@ Transcripts: [paste here]</div>
   <h2>Jobs-to-be-Done in Practice</h2>
   <p>Clayton Christensen's Jobs-to-be-Done framework, popularized for product design by Alan Klement's "When Coffee and Kale Compete," reframes design from feature-building to job-solving. Users "hire" products to do a job. When a better solution exists, they "fire" your product.</p>
 
-  <div class="insight insight-blue">
+  <div class="insight insight-blue reveal">
     <div class="insight-label">Core Framework — JTBD Job Statement</div>
     <p>"When [situation], I want to [motivation], so I can [expected outcome]." This structure forces you to capture context, not just need. Example: "When I'm waiting for a meeting to start, I want to quickly catch up on unread messages, so I can walk in with relevant context."</p>
   </div>
 
-  <h3>Three Levels of Jobs</h3>
-  <div class="framework-grid">
+  <h3>Three levels of jobs</h3>
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell">
       <div class="fw-num">→</div>
       <div class="fw-title">Functional Job</div>
@@ -384,7 +613,29 @@ Transcripts: [paste here]</div>
     </div>
   </div>
 
-  <div class="scenario">
+  <!-- JTBD illustration -->
+  <div class="illustration reveal">
+    <svg viewBox="0 0 540 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="jtbd-title">
+      <title id="jtbd-title">Three layers of every user job</title>
+      <!-- concentric circles -->
+      <circle cx="270" cy="100" r="80" fill="#fdf0e8" stroke="#b84000" stroke-width="0.5"/>
+      <circle cx="270" cy="100" r="50" fill="#eaf4ee" stroke="#1a5c3e" stroke-width="0.5"/>
+      <circle cx="270" cy="100" r="22" fill="#eaeff8" stroke="#183562" stroke-width="0.5"/>
+      <text x="270" y="103" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#183562">FUNCTIONAL</text>
+      <text x="270" y="58" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1a5c3e">EMOTIONAL</text>
+      <text x="270" y="32" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#b84000">SOCIAL</text>
+      <!-- Labels right side -->
+      <line x1="350" y1="100" x2="380" y2="100" stroke="#183562" stroke-width="0.5"/>
+      <text x="388" y="103" font-family="Inter, sans-serif" font-size="10" fill="#183562">"Send $20 to Sam"</text>
+      <line x1="320" y1="55" x2="380" y2="40" stroke="#1a5c3e" stroke-width="0.5"/>
+      <text x="388" y="43" font-family="Inter, sans-serif" font-size="10" fill="#1a5c3e">"Feel reliable, not awkward"</text>
+      <line x1="295" y1="22" x2="380" y2="155" stroke="#b84000" stroke-width="0.5" stroke-dasharray="2 2"/>
+      <text x="388" y="158" font-family="Inter, sans-serif" font-size="10" fill="#b84000">"Look generous in the feed"</text>
+    </svg>
+    <div class="illustration-caption">Fig. 3 · The job layered three ways</div>
+  </div>
+
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
@@ -393,44 +644,71 @@ Transcripts: [paste here]</div>
     <div class="scenario-body">
       <p>In 2012, Airbnb was struggling. The team's initial problem frame: "How might we increase bookings?" This led to tactical solutions — better search, lower prices. Contextual research revealed the real issue: hosts were using low-quality cameras to photograph their spaces. The actual problem was trust through presentation.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Reframe</div>
+        <div class="scenario-section-label">↳ Reframe</div>
         <p>They hired professional photographers for $80 and sent them to host homes. Bookings doubled in New York within a week. The solution was a human photographer — not a product feature. Correct problem framing led to a non-obvious solution.</p>
       </div>
     </div>
   </div>
 
   <h2>The Problem Statement Canvas</h2>
-  <p>Before writing a single design brief, fill in this structure. Skip a field and you're designing blind.</p>
-  <div class="checklist">
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>User:</strong> Who specifically are we designing for? (Segment, context, expertise level)<div class="check-sub">Avoid "all users." Narrower users → sharper design.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>Situation:</strong> In what context does this problem arise? When, where, under what conditions?<div class="check-sub">Time and place matter enormously to design decisions.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>Obstacle:</strong> What specific friction or pain is happening? (Evidence-based, not assumed)<div class="check-sub">Use direct quotes from research when possible.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>Impact:</strong> What is the consequence if this problem persists?<div class="check-sub">Quantify where possible — drop-off rate, support tickets, NPS verbatims.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>Current workarounds:</strong> How are users solving this today, however clumsily?<div class="check-sub">Workarounds reveal unmet needs and hint at solutions.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text"><strong>Success definition:</strong> How would we know we've solved this well?<div class="check-sub">Set this before ideating — otherwise you'll fall in love with clever solutions to wrong problems.</div></div></div>
+  <p>Before writing a single design brief, fill in this structure. Skip a field and you're designing blind. Tick each item as you complete it — the count tracks your progress.</p>
+
+  <div class="checklist reveal">
+    <div class="checklist-meta">
+      <span>Problem statement canvas</span>
+      <span><span class="count">0 / 6</span> complete</span>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>User</strong> · Who specifically are we designing for? (Segment, context, expertise level)<div class="check-sub">Avoid "all users." Narrower users → sharper design.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>Situation</strong> · In what context does this problem arise? When, where, under what conditions?<div class="check-sub">Time and place matter enormously to design decisions.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>Obstacle</strong> · What specific friction or pain is happening? (Evidence-based, not assumed)<div class="check-sub">Use direct quotes from research when possible.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>Impact</strong> · What is the consequence if this problem persists?<div class="check-sub">Quantify where possible — drop-off rate, support tickets, NPS verbatims.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>Current workarounds</strong> · How are users solving this today, however clumsily?<div class="check-sub">Workarounds reveal unmet needs and hint at solutions.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text"><strong>Success definition</strong> · How would we know we've solved this well?<div class="check-sub">Set this before ideating — otherwise you'll fall in love with clever solutions to wrong problems.</div></div>
+    </div>
   </div>
-</div>
+</section>
 
-<hr class="divider-chapter">
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 4
-══════════════════════════════════ -->
-<div class="chapter" id="ch4">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 04</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 4 — IDEATION
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch4">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">04</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 04</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Ideation &amp;<br><em>Concepts</em></h2>
   </div>
-  <div class="chapter-title">Ideation &amp;<br><em>Concepts</em></div>
-  <div class="chapter-intro">Ideas are cheap. The ability to generate them quickly and select them wisely is the design skill AI has most disrupted — and most amplified.</div>
+  <p class="chapter-intro reveal">Ideas are cheap. The ability to generate them quickly and select them wisely is the design skill AI has most disrupted — and most amplified.</p>
 
   <h2>AI as an Ideation Partner</h2>
   <p>Generative AI is an excellent brainstorming partner — it produces volume without fatigue. But volume is not the goal. The goal is the unexplored corner of the solution space that changes how you see the problem. Use AI to stress-test your own thinking, not to replace it.</p>
 
-  <div class="prompt-box">
+  <div class="prompt-box reveal">
+    <button class="prompt-copy" aria-label="Copy prompt">Copy</button>
     <div class="prompt-label">Sample AI Prompt — Divergent Ideation</div>
-    <div class="prompt-text">Problem: New users of our budgeting app abandon the onboarding
+    <div class="prompt-text">Problem: New users of our budgeting app abandon the onboarding 
 flow at the "Connect your bank account" step.
 
 Generate 20 concepts — not features — that could address this. Include:
@@ -445,35 +723,36 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
 
   <h2>Concept Selection: The 2×2 Matrix</h2>
   <p>After ideation, the hardest design skill is selection. This matrix from "Sprint" (Jake Knapp, Google Ventures) separates exploration from exploitation:</p>
-  <div class="framework-grid">
+
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--accent)">High / Low</div>
-      <div class="fw-title">Quick Wins — Do First</div>
+      <div class="fw-num" style="color:var(--accent)">↑↓</div>
+      <div class="fw-title">Quick Wins · Do First</div>
       <div class="fw-desc">High impact, low effort. Often existing patterns applied to new contexts. Ship and measure.</div>
     </div>
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--accent2)">High / High</div>
-      <div class="fw-title">Strategic Bets — Prototype</div>
+      <div class="fw-num" style="color:var(--accent2)">↑↑</div>
+      <div class="fw-title">Strategic Bets · Prototype</div>
       <div class="fw-desc">High impact, high effort. Requires a design sprint to derisk before committing.</div>
     </div>
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--accent3)">Low / Low</div>
-      <div class="fw-title">Fill-ins — Maybe Later</div>
+      <div class="fw-num" style="color:var(--accent3)">↓↓</div>
+      <div class="fw-title">Fill-ins · Maybe Later</div>
       <div class="fw-desc">Low impact, low effort. Consider only if they don't conflict with higher priorities.</div>
     </div>
     <div class="framework-cell">
-      <div class="fw-num" style="color:var(--ink-faint)">Low / High</div>
-      <div class="fw-title">Thankless Tasks — Avoid</div>
+      <div class="fw-num" style="color:var(--ink-faint)">↓↑</div>
+      <div class="fw-title">Thankless · Avoid</div>
       <div class="fw-desc">Low impact, high effort. Ruthlessly deprioritize unless business constraints force otherwise.</div>
     </div>
   </div>
 
-  <div class="insight">
+  <div class="insight reveal">
     <div class="insight-label">From "Shape Up" — Ryan Singer (Basecamp)</div>
     <p>"Shaped work includes a problem definition, an approach, and a constraint — but leaves room for the team to work out the details. Appetite (time budget) shapes everything. A 6-week problem is designed differently than a 2-week one."</p>
   </div>
 
-  <div class="scenario">
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
@@ -482,174 +761,324 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
     <div class="scenario-body">
       <p>Linear became a cult product among engineering teams not by generating the most ideas, but by ruthlessly saying no. Every feature concept is evaluated against a single design principle: "Does this make fast teams faster?" Features that don't serve elite users are removed even if they'd serve more users.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Design Lesson</div>
+        <div class="scenario-section-label">↳ Design Lesson</div>
         <p>Before ideating, define your design thesis. Linear's is "speed." Figma's is "collaboration." Ideation is not about volume — it's about finding the concept that serves your thesis.</p>
       </div>
     </div>
   </div>
-</div>
 
-<hr class="divider-chapter">
-
-
-<!-- ══════════════════════════════════
-     CHAPTER 5
-══════════════════════════════════ -->
-<div class="chapter" id="ch5">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 05</span>
-    <span class="chapter-marker-line"></span>
+  <div class="author-reflection reveal">
+    <div class="reflection-avatar">AH</div>
+    <div>
+      <div class="reflection-label">From the author</div>
+      <p class="reflection-text">"At ParseLab, I've learned the hardest part of any project isn't generating ideas — it's killing the ones I love. The 2×2 matrix above has saved me from shipping 'thankless tasks' more times than I can count."</p>
+      <div class="reflection-byline">— Al Aowshad Himel, Product Designer, ParseLab LLC</div>
+    </div>
   </div>
-  <div class="chapter-title">Designing<br><em>AI Interactions</em></div>
-  <div class="chapter-intro">AI interfaces introduce a category of design problems that no previous generation of designers has faced: how to design for an output you cannot fully predict.</div>
+</section>
+
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
+
+
+
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 5 — DESIGNING AI INTERACTIONS
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch5">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">05</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 05</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Designing<br><em>AI Interactions</em></h2>
+  </div>
+  <p class="chapter-intro reveal">AI interfaces introduce a category of design problems no previous generation of designers has faced: how to design for an output you cannot fully predict.</p>
 
   <h2>The Five Core Challenges of AI UX</h2>
-  <div class="framework-grid">
+  <p>Every AI feature inherits these six challenges by default. The best AI products don't avoid them — they address each one explicitly through design.</p>
+
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell"><div class="fw-num">01</div><div class="fw-title">Expectation Gap</div><div class="fw-desc">Users either over-trust or under-trust AI. Neither is safe. Design to calibrate expectations accurately — not optimistically.</div></div>
     <div class="framework-cell"><div class="fw-num">02</div><div class="fw-title">Output Variability</div><div class="fw-desc">The same prompt can produce different outputs. Design needs to handle the full distribution, including hallucinations and refusals.</div></div>
     <div class="framework-cell"><div class="fw-num">03</div><div class="fw-title">Latency</div><div class="fw-desc">AI takes time. Users who waited 300ms for page loads now face 10-second response times. Streaming UIs and progressive disclosure are essential.</div></div>
     <div class="framework-cell"><div class="fw-num">04</div><div class="fw-title">Input Design</div><div class="fw-desc">Natural language is infinite. Designing for open-ended prompts is fundamentally different from form design. Empty states and examples become critical.</div></div>
     <div class="framework-cell"><div class="fw-num">05</div><div class="fw-title">Error States</div><div class="fw-desc">AI errors are not 404s — they're contextual, nuanced, and often not recognizable as errors. Design for graceful degradation and recovery.</div></div>
-    <div class="framework-cell"><div class="fw-num">06</div><div class="fw-title">Attribution & Trust</div><div class="fw-desc">When AI generates content for real people, how does the interface communicate provenance, confidence, and fallibility?</div></div>
+    <div class="framework-cell"><div class="fw-num">06</div><div class="fw-title">Attribution &amp; Trust</div><div class="fw-desc">When AI generates content for real people, how does the interface communicate provenance, confidence, and fallibility?</div></div>
+  </div>
+
+  <!-- Trust calibration diagram -->
+  <div class="illustration reveal">
+    <svg viewBox="0 0 540 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="trust-title">
+      <title id="trust-title">Trust calibration spectrum</title>
+      <!-- baseline -->
+      <line x1="60" y1="130" x2="480" y2="130" stroke="#c8c3b8" stroke-width="1"/>
+      <!-- labels -->
+      <text x="80" y="155" font-family="JetBrains Mono, monospace" font-size="10" fill="#b84000" letter-spacing="1">← UNDERTRUST</text>
+      <text x="270" y="155" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a5c3e" letter-spacing="1">CALIBRATED</text>
+      <text x="460" y="155" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#b84000" letter-spacing="1">OVERTRUST →</text>
+      <!-- curve -->
+      <path d="M60,180 Q270,40 480,180" fill="none" stroke="#b84000" stroke-width="1.5"/>
+      <!-- sweet-spot marker -->
+      <circle cx="270" cy="55" r="6" fill="#1a5c3e"/>
+      <text x="270" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1a5c3e">Sweet spot</text>
+      <text x="270" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Users verify when it matters</text>
+      <!-- left risk -->
+      <circle cx="100" cy="170" r="4" fill="#b84000"/>
+      <text x="100" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Ignores AI</text>
+      <!-- right risk -->
+      <circle cx="440" cy="170" r="4" fill="#b84000"/>
+      <text x="440" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#52504a">Blindly accepts</text>
+    </svg>
+    <div class="illustration-caption">Fig. 4 · The trust calibration curve</div>
   </div>
 
   <h2>Design Patterns for AI Interfaces</h2>
 
-  <h3>Pattern 1 — Suggested Starting Points</h3>
+  <h3>Pattern 1 — Suggested starting points</h3>
   <p>An empty chat input is one of the most intimidating UIs ever designed. Show 3–4 example prompts that match common user jobs. Make them specific enough to set accurate expectations. This pattern, used by ChatGPT, Claude, Perplexity, and Gemini, dramatically reduces bounce rate on first use.</p>
 
-  <h3>Pattern 2 — Progressive Disclosure of Confidence</h3>
+  <h3>Pattern 2 — Progressive disclosure of confidence</h3>
   <p>When the AI is less certain, show it. This could be as simple as "I'm not sure about this — you might want to verify" or as complex as source citations (like Perplexity). Users who understand AI limitations are better users.</p>
 
-  <h3>Pattern 3 — Streaming Output</h3>
+  <h3>Pattern 3 — Streaming output</h3>
   <p>Showing text as it's generated dramatically reduces perceived latency. It also helps users understand what the model is doing — and allows them to interrupt when the direction is wrong, saving time for both user and system.</p>
 
-  <h3>Pattern 4 — Undo, Edit, Regenerate</h3>
+  <h3>Pattern 4 — Undo, edit, regenerate</h3>
   <p>Every AI output should have a lightweight path to modification. These three controls cover 80% of user recovery needs from suboptimal outputs.</p>
 
-  <div class="insight">
+  <div class="insight reveal">
     <div class="insight-label">From Google's "People + AI Guidebook" (PAIR)</div>
     <p>"Design for when AI gets it wrong. If you only design for success, you've designed half a product. AI errors create disproportionate trust damage — a single bad output can undo dozens of good ones."</p>
   </div>
 
   <h2>Designing for Trust Calibration</h2>
   <p>The goal is not maximum trust — it's <strong>accurate trust</strong>. A user who trusts an AI too much will rely on it in situations where it's likely to fail.</p>
-  <table class="comparison">
-    <thead><tr><th>Trust Level</th><th>User Behavior</th><th>Design Response</th></tr></thead>
-    <tbody>
-      <tr><td>Overtrust</td><td>Accepts all output without verification. Delegates high-stakes decisions.</td><td class="col-warn">Add friction: "Review before submitting." Confidence indicators. Citation links.</td></tr>
-      <tr><td>Calibrated Trust</td><td>Uses AI appropriately. Verifies when stakes are high. Understands limitations.</td><td class="col-good">Reinforce with transparency. Show why AI suggested X. Enable easy correction.</td></tr>
-      <tr><td>Undertrust</td><td>Ignores AI suggestions. Double-checks everything. Feels AI is unreliable.</td><td>Demonstrate capability gradually. Show value in low-stakes tasks first.</td></tr>
-    </tbody>
-  </table>
 
-  <div class="scenario">
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead><tr><th>Trust Level</th><th>User Behavior</th><th>Design Response</th></tr></thead>
+      <tbody>
+        <tr><td>Overtrust</td><td>Accepts all output without verification. Delegates high-stakes decisions.</td><td class="col-warn">Add friction: "Review before submitting." Confidence indicators. Citation links.</td></tr>
+        <tr><td>Calibrated Trust</td><td>Uses AI appropriately. Verifies when stakes are high. Understands limitations.</td><td class="col-good">Reinforce with transparency. Show why AI suggested X. Enable easy correction.</td></tr>
+        <tr><td>Undertrust</td><td>Ignores AI suggestions. Double-checks everything. Feels AI is unreliable.</td><td>Demonstrate capability gradually. Show value in low-stakes tasks first.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
       <span class="scenario-title-bar">GitHub Copilot — Trust through transparency</span>
     </div>
+    <div class="scenario-illustration" aria-hidden="true">
+      <svg viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="20" width="320" height="60" fill="#1c1b18"/>
+        <text x="36" y="38" font-family="JetBrains Mono, monospace" font-size="10" fill="#9fcfb5">function</text>
+        <text x="84" y="38" font-family="JetBrains Mono, monospace" font-size="10" fill="#e8e4dc">calculateTotal(</text>
+        <text x="190" y="38" font-family="JetBrains Mono, monospace" font-size="10" fill="#f0997b">items</text>
+        <text x="224" y="38" font-family="JetBrains Mono, monospace" font-size="10" fill="#e8e4dc">) {</text>
+        <text x="50" y="56" font-family="JetBrains Mono, monospace" font-size="10" fill="#7a776e" font-style="italic">return items.reduce((sum, i) =&gt; sum + i.price, 0);</text>
+        <text x="36" y="74" font-family="JetBrains Mono, monospace" font-size="10" fill="#e8e4dc">}</text>
+        <rect x="48" y="46" width="280" height="14" fill="none" stroke="#b84000" stroke-width="0.5" stroke-dasharray="2 2"/>
+        <text x="332" y="56" font-family="JetBrains Mono, monospace" font-size="8" fill="#b84000" letter-spacing="0.5">AI</text>
+      </svg>
+    </div>
     <div class="scenario-body">
       <p>GitHub Copilot's initial UX showed AI suggestions inline as "ghost text." Engineers accepted suggestions without always understanding them. Studies found both over-acceptance (wrong code) and under-acceptance (dismissing correct suggestions). The team introduced "Copilot Chat" — allowing engineers to ask why a suggestion was made. This transparency layer improved both trust calibration and productivity.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Design Lesson</div>
+        <div class="scenario-section-label">↳ Design Lesson</div>
         <p>The interface for an AI suggestion and the interface for understanding that suggestion are two different design problems. Both matter. Explainability is not a bonus — it's a trust mechanism.</p>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<hr class="divider-chapter">
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 6
-══════════════════════════════════ -->
-<div class="chapter" id="ch6">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 06</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 6 — PROTOTYPING
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch6">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">06</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 06</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Prototyping<br><em>&amp; Testing</em></h2>
   </div>
-  <div class="chapter-title">Prototyping<br><em>&amp; Testing</em></div>
-  <div class="chapter-intro">A prototype is a question made tangible. The best prototypes answer the riskiest questions with the least effort. AI has fundamentally changed what's possible to prototype in an afternoon.</div>
+  <p class="chapter-intro reveal">A prototype is a question made tangible. The best prototypes answer the riskiest questions with the least effort. AI has fundamentally changed what's possible to prototype in an afternoon.</p>
 
   <h2>Fidelity ≠ Quality</h2>
-  <p>Match your fidelity to your question. A high-fidelity prototype that answers the wrong question wastes everyone's time.</p>
-  <table class="comparison">
-    <thead><tr><th>Question</th><th>Right Fidelity</th><th>Why</th></tr></thead>
-    <tbody>
-      <tr><td>"Are we solving the right problem?"</td><td>Storyboard or concept doc</td><td>No interface needed to validate a job</td></tr>
-      <tr><td>"Will users understand this flow?"</td><td>Clickable wireframes (mid-fi)</td><td>Navigation clarity doesn't require polish</td></tr>
-      <tr><td>"Do users trust this UI?"</td><td>High-fidelity</td><td>Trust signals are in the details</td></tr>
-      <tr><td>"Is this copy clear?"</td><td>Text prototype</td><td>Content clarity doesn't need visuals</td></tr>
-      <tr><td>"Will this AI behavior feel right?"</td><td>Wizard of Oz</td><td>Reveals UX issues cheaply before model code</td></tr>
-    </tbody>
-  </table>
+  <p>Match your fidelity to your question. A high-fidelity prototype that answers the wrong question wastes everyone's time. A paper sketch that answers the right question in 20 minutes is brilliant design.</p>
+
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead><tr><th>Question</th><th>Right Fidelity</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>"Are we solving the right problem?"</td><td>Storyboard or concept doc</td><td>No interface needed to validate a job</td></tr>
+        <tr><td>"Will users understand this flow?"</td><td>Clickable wireframes (mid-fi)</td><td>Navigation clarity doesn't require polish</td></tr>
+        <tr><td>"Do users trust this UI?"</td><td>High-fidelity</td><td>Trust signals are in the details</td></tr>
+        <tr><td>"Is this copy clear?"</td><td>Text prototype</td><td>Content clarity doesn't need visuals</td></tr>
+        <tr><td>"Will this AI behavior feel right?"</td><td>Wizard of Oz</td><td>Reveals UX issues cheaply before model code</td></tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2>The Wizard of Oz Technique for AI Features</h2>
   <p>Before spending engineering cycles on an AI feature, test the experience manually. A human "wizard" simulates the AI in real-time while the user interacts normally.</p>
-  <div class="process-step"><div class="step-num">01</div><div><div class="step-title">Define the AI's role</div><p class="step-desc">What exactly will the AI do? Write it in one sentence. "The AI will read the user's uploaded resume and suggest 5 improvements." Vagueness in the prototype creates confusion in the test.</p></div></div>
-  <div class="process-step"><div class="step-num">02</div><div><div class="step-title">Build the shell UI</div><p class="step-desc">Create the interface that will show AI output. Leave the output area blank — the wizard fills it in real-time. A Figma frame shared via Figma Mirror works fine.</p></div></div>
-  <div class="process-step"><div class="step-num">03</div><div><div class="step-title">Run the session</div><p class="step-desc">While the participant interacts, the wizard types simulated responses from a separate device. Introduce intentional errors — test how the user handles suboptimal output.</p></div></div>
-  <div class="process-step"><div class="step-num">04</div><div><div class="step-title">Debrief on the gap</div><p class="step-desc">Ask: "Did the AI output match what you expected? What would have made it more useful?" The gap between expected and received is your design brief for the AI output layer.</p></div></div>
 
-  <div class="insight insight-green">
+  <div class="process-steps reveal-stagger">
+    <div class="process-step">
+      <div class="step-num">01</div>
+      <div><div class="step-title">Define the AI's role</div><p class="step-desc">What exactly will the AI do? Write it in one sentence. "The AI will read the user's uploaded resume and suggest 5 improvements." Vagueness in the prototype creates confusion in the test.</p></div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">02</div>
+      <div><div class="step-title">Build the shell UI</div><p class="step-desc">Create the interface that will show AI output. Leave the output area blank — the wizard fills it in real-time. A Figma frame shared via Figma Mirror works fine.</p></div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">03</div>
+      <div><div class="step-title">Run the session</div><p class="step-desc">While the participant interacts, the wizard types simulated responses from a separate device. Introduce intentional errors — test how the user handles suboptimal output.</p></div>
+    </div>
+    <div class="process-step">
+      <div class="step-num">04</div>
+      <div><div class="step-title">Debrief on the gap</div><p class="step-desc">Ask: "Did the AI output match what you expected? What would have made it more useful?" The gap between expected and received is your design brief for the AI output layer.</p></div>
+    </div>
+  </div>
+
+  <div class="insight insight-green reveal">
     <div class="insight-label">From "Sprint" — Jake Knapp</div>
     <p>"You can prototype almost anything in a day. You don't need it to work perfectly — you need it to appear to work. The goal is to get the right data, not to build the right product. That comes after."</p>
   </div>
 
   <h2>AI-Powered Prototyping Tools (2026)</h2>
-  <div class="tool-row">
-    <div class="tool-card"><div class="tool-name">Figma + AI Plugins</div><div class="tool-tag ai">AI-powered</div><p class="tool-desc">Generate UI components from text descriptions, auto-fill realistic content, create variants. The plugin ecosystem now includes specialized AI interface pattern tools.</p></div>
-    <div class="tool-card"><div class="tool-name">v0 by Vercel</div><div class="tool-tag ai">AI-powered</div><p class="tool-desc">Generate working React/Tailwind code from text prompts. In minutes, you have a functional prototype that can call real APIs — including AI APIs.</p></div>
-    <div class="tool-card"><div class="tool-name">Framer AI</div><div class="tool-tag ai">AI-powered</div><p class="tool-desc">Describe your design and get a working website. Best for testing real in-browser interactions including animations and responsive behavior.</p></div>
-    <div class="tool-card"><div class="tool-name">ProtoPie</div><div class="tool-tag classic">Classic + AI</div><p class="tool-desc">Advanced interaction prototyping without code. AI variables let you simulate AI responses with conditional logic — closer to real behavior than static mockups.</p></div>
+  <div class="tool-row reveal-stagger">
+    <div class="tool-card">
+      <div class="tool-name">Figma + AI Plugins</div>
+      <div class="tool-tag ai">AI-powered</div>
+      <p class="tool-desc">Generate UI components from text descriptions, auto-fill realistic content, create variants. The plugin ecosystem now includes specialized AI interface pattern tools.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">v0 by Vercel</div>
+      <div class="tool-tag ai">AI-powered</div>
+      <p class="tool-desc">Generate working React/Tailwind code from text prompts. In minutes, you have a functional prototype that can call real APIs — including AI APIs.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">Framer AI</div>
+      <div class="tool-tag ai">AI-powered</div>
+      <p class="tool-desc">Describe your design and get a working website. Best for testing real in-browser interactions including animations and responsive behavior.</p>
+    </div>
+    <div class="tool-card">
+      <div class="tool-name">ProtoPie</div>
+      <div class="tool-tag classic">Classic + AI</div>
+      <p class="tool-desc">Advanced interaction prototyping without code. AI variables let you simulate AI responses with conditional logic — closer to real behavior than static mockups.</p>
+    </div>
   </div>
 
   <h2>Usability Testing Checklist for AI Products</h2>
-  <div class="checklist">
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Run each task scenario with at least 3 different AI responses (good, mediocre, incorrect)<div class="check-sub">Observe how users respond to each — this reveals error recovery design needs.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Measure task completion rate AND prompt revision rate<div class="check-sub">A user who revises their prompt 5 times to get a good answer has a usability problem even if they eventually succeed.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Ask users to think aloud about what they expected vs. what they received<div class="check-sub">The expectation gap is your most important AI UX signal.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Observe trust calibration: do users verify AI output? When? How?<div class="check-sub">Note when users blindly accept incorrect outputs — a critical safety and UX failure.</div></div></div>
+  <p>AI features fail differently than traditional UI. These four checks will surface problems most usability tests miss.</p>
+
+  <div class="checklist reveal">
+    <div class="checklist-meta">
+      <span>AI testing checklist</span>
+      <span><span class="count">0 / 4</span> complete</span>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Run each task scenario with at least 3 different AI responses (good, mediocre, incorrect)<div class="check-sub">Observe how users respond to each — this reveals error recovery design needs.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Measure task completion rate AND prompt revision rate<div class="check-sub">A user who revises their prompt 5 times to get a good answer has a usability problem even if they eventually succeed.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Ask users to think aloud about what they expected vs. what they received<div class="check-sub">The expectation gap is your most important AI UX signal.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Observe trust calibration: do users verify AI output? When? How?<div class="check-sub">Note when users blindly accept incorrect outputs — a critical safety and UX failure.</div></div>
+    </div>
   </div>
-</div>
+</section>
 
-<hr class="divider-chapter">
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
 
 
-<!-- ══════════════════════════════════
-     CHAPTER 7
-══════════════════════════════════ -->
-<div class="chapter" id="ch7">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 07</span>
-    <span class="chapter-marker-line"></span>
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 7 — CRAFT
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch7">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">07</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 07</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Craft &amp;<br><em>Visual Systems</em></h2>
   </div>
-  <div class="chapter-title">Craft &amp;<br><em>Visual Systems</em></div>
-  <div class="chapter-intro">In an era where AI can generate UI in seconds, the value of taste, intentionality, and system-thinking has never been higher. Speed without craft produces volume without value.</div>
+  <p class="chapter-intro reveal">In an era where AI can generate UI in seconds, the value of taste, intentionality, and system-thinking has never been higher. Speed without craft produces volume without value.</p>
 
   <h2>Design Systems Are Infrastructure</h2>
   <p>A design system is not a component library. It's the codified values, decisions, and patterns that make a product coherent at scale. The best design systems — IBM Carbon, Material Design, Apple HIG, Atlassian Design System — work because they encode decisions, not just designs.</p>
-  <div class="framework-grid">
+
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell"><div class="fw-num">L1</div><div class="fw-title">Design Tokens</div><div class="fw-desc">The atoms: color, typography, spacing, border radius, shadow. Use semantic naming (color-action-primary, not blue-500).</div></div>
     <div class="framework-cell"><div class="fw-num">L2</div><div class="fw-title">Components</div><div class="fw-desc">Reusable UI units. A component should do one thing well. Composability over omniscience.</div></div>
     <div class="framework-cell"><div class="fw-num">L3</div><div class="fw-title">Patterns</div><div class="fw-desc">Recurring interaction solutions: search, pagination, forms, notifications. Patterns compose components with interaction logic.</div></div>
     <div class="framework-cell"><div class="fw-num">L4</div><div class="fw-title">Templates</div><div class="fw-desc">Page-level layouts. Where navigation, spacing, and density decisions live at the macro level.</div></div>
   </div>
 
+  <!-- Design system pyramid -->
+  <div class="illustration reveal">
+    <svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ds-title">
+      <title id="ds-title">Design system hierarchy</title>
+      <!-- Layers stacking -->
+      <g>
+        <rect x="60" y="40" width="300" height="32" fill="#eaeff8" stroke="#183562" stroke-width="0.5"/>
+        <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#183562" letter-spacing="1">L4 · TEMPLATES</text>
+        <text x="340" y="60" text-anchor="end" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Pages / layouts</text>
+      </g>
+      <g>
+        <rect x="80" y="80" width="260" height="32" fill="#eaf4ee" stroke="#1a5c3e" stroke-width="0.5"/>
+        <text x="100" y="100" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a5c3e" letter-spacing="1">L3 · PATTERNS</text>
+        <text x="320" y="100" text-anchor="end" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Search · forms · nav</text>
+      </g>
+      <g>
+        <rect x="100" y="120" width="220" height="32" fill="#fdf0e8" stroke="#b84000" stroke-width="0.5"/>
+        <text x="120" y="140" font-family="JetBrains Mono, monospace" font-size="10" fill="#b84000" letter-spacing="1">L2 · COMPONENTS</text>
+        <text x="300" y="140" text-anchor="end" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Buttons · inputs</text>
+      </g>
+      <g>
+        <rect x="120" y="160" width="180" height="32" fill="#faf4e0" stroke="#a07800" stroke-width="0.5"/>
+        <text x="140" y="180" font-family="JetBrains Mono, monospace" font-size="10" fill="#a07800" letter-spacing="1">L1 · TOKENS</text>
+        <text x="280" y="180" text-anchor="end" font-family="Inter, sans-serif" font-size="9" fill="#52504a" font-style="italic">Color · type · space</text>
+      </g>
+      <!-- foundation label -->
+      <line x1="120" y1="200" x2="300" y2="200" stroke="#c8c3b8" stroke-width="0.5"/>
+      <text x="210" y="216" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a09d96" font-style="italic">Foundation builds upward</text>
+    </svg>
+    <div class="illustration-caption">Fig. 5 · Design system hierarchy</div>
+  </div>
+
   <h2>Typography: The Most Underrated Design Tool</h2>
   <p>Robert Bringhurst's "The Elements of Typographic Style" argues that "typography exists to honor content." In product design, typography is how your interface whispers or shouts, calms or energizes, includes or excludes.</p>
-  <div class="metric-row">
+
+  <div class="metric-row reveal-stagger">
     <div class="metric-cell"><div class="metric-num">1.5×</div><div class="metric-label">Line height sweet spot for body text</div></div>
     <div class="metric-cell"><div class="metric-num">60–75</div><div class="metric-label">Ideal characters per line (CPL)</div></div>
     <div class="metric-cell"><div class="metric-num">2</div><div class="metric-label">Max typeface families in a product UI</div></div>
-    <div class="metric-cell"><div class="metric-num">4.5:1</div><div class="metric-label">Min contrast ratio for body text (WCAG AA)</div></div>
+    <div class="metric-cell"><div class="metric-num">4.5:1</div><div class="metric-label">Min contrast for body text (WCAG AA)</div></div>
   </div>
 
   <h2>Color with Intent</h2>
   <p>The most common color mistake in product design is treating color as decoration. Color is communication. Every color decision should answer: what does this color tell the user about this element's role, state, or priority?</p>
-  <div class="concept-box">
+
+  <div class="concept-box reveal">
     <div class="concept-box-label">Framework</div>
     <div class="concept-box-title">The 60-30-10 Rule — Updated for AI Interfaces</div>
     <div class="concept-body">
@@ -660,57 +1089,85 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
   </div>
 
   <h2>Accessibility Is Not Optional</h2>
-  <p>Approximately 1 in 5 people has a disability that affects how they use digital products. Designing accessibly is both ethically necessary and commercially smart.</p>
-  <div class="checklist">
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Text contrast minimum 4.5:1 for body, 3:1 for large text (WCAG 2.1 AA)<div class="check-sub">Use Figma's built-in contrast checker or the A11y Color Contrast plugin.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">All interactive elements keyboard-accessible<div class="check-sub">Tab order, focus states, and keyboard shortcuts should be designed — not left to browser defaults.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">AI-generated content is clearly labeled for screen readers<div class="check-sub">Use ARIA roles and labels. Visually-distinct AI content must also be semantically distinct.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Loading states use both animation and text for status<div class="check-sub">Never rely on a spinner alone. "Generating your response..." serves users who can't see animation.</div></div></div>
-    <div class="check-item"><div class="check-box" onclick="this.classList.toggle('checked')"></div><div class="check-text">Color is not the only means of conveying information<div class="check-sub">Add iconography, pattern, or text alongside color-coded status indicators.</div></div></div>
+  <p>Approximately 1 in 5 people has a disability that affects how they use digital products. Designing accessibly is both ethically necessary and commercially smart. Tick each item as you verify your design meets it.</p>
+
+  <div class="checklist reveal">
+    <div class="checklist-meta">
+      <span>Accessibility checklist</span>
+      <span><span class="count">0 / 5</span> complete</span>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Text contrast minimum 4.5:1 for body, 3:1 for large text (WCAG 2.1 AA)<div class="check-sub">Use Figma's built-in contrast checker or the A11y Color Contrast plugin.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">All interactive elements keyboard-accessible<div class="check-sub">Tab order, focus states, and keyboard shortcuts should be designed — not left to browser defaults.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">AI-generated content is clearly labeled for screen readers<div class="check-sub">Use ARIA roles and labels. Visually-distinct AI content must also be semantically distinct.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Loading states use both animation and text for status<div class="check-sub">Never rely on a spinner alone. "Generating your response..." serves users who can't see animation.</div></div>
+    </div>
+    <div class="check-item">
+      <div class="check-box" tabindex="0" role="checkbox" aria-checked="false"></div>
+      <div class="check-text">Color is not the only means of conveying information<div class="check-sub">Add iconography, pattern, or text alongside color-coded status indicators.</div></div>
+    </div>
   </div>
 
-  <div class="insight">
+  <div class="insight reveal">
     <div class="insight-label">From "Inclusive Design Patterns" — Heydon Pickering</div>
     <p>"Accessibility isn't about edge cases — it's about designing for the full range of human variability. When you design for extremes, you create a better experience for everyone."</p>
   </div>
 
   <h2>Motion Design in AI Products</h2>
-  <table class="comparison">
-    <thead><tr><th>State</th><th>Motion Approach</th><th>Example</th></tr></thead>
-    <tbody>
-      <tr><td>Processing / Thinking</td><td>Looping soft pulse or shimmer (0.8–1.2s loop)</td><td>A subtle waveform or breathing indicator — not a spinning circle.</td></tr>
-      <tr><td>Generating / Streaming</td><td>Cascade or typewriter — organic, not mechanical</td><td>Text appearing word-by-word. Fast enough to feel alive, slow enough to read.</td></tr>
-      <tr><td>Error / Refusal</td><td>Gentle shake or dissolve — never aggressive</td><td>Input field softly shakes. Content fades to neutral state.</td></tr>
-      <tr><td>Success / Complete</td><td>Brief micro-celebration (200–300ms scale or flash)</td><td>A checkmark that scales up and settles. Not a slot machine win.</td></tr>
-    </tbody>
-  </table>
-</div>
+  <p>AI introduces motion states that didn't exist before. Each needs its own vocabulary — borrowing from traditional UI motion will feel either too aggressive or too sleepy.</p>
 
-<hr class="divider-chapter">
-
-
-<!-- ══════════════════════════════════
-     CHAPTER 8
-══════════════════════════════════ -->
-<div class="chapter" id="ch8">
-  <div class="chapter-marker">
-    <span class="chapter-marker-text">Chapter 08</span>
-    <span class="chapter-marker-line"></span>
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead><tr><th>State</th><th>Motion Approach</th><th>Example</th></tr></thead>
+      <tbody>
+        <tr><td>Processing / Thinking</td><td>Looping soft pulse or shimmer (0.8–1.2s loop)</td><td>A subtle waveform or breathing indicator — not a spinning circle.</td></tr>
+        <tr><td>Generating / Streaming</td><td>Cascade or typewriter — organic, not mechanical</td><td>Text appearing word-by-word. Fast enough to feel alive, slow enough to read.</td></tr>
+        <tr><td>Error / Refusal</td><td>Gentle shake or dissolve — never aggressive</td><td>Input field softly shakes. Content fades to neutral state.</td></tr>
+        <tr><td>Success / Complete</td><td>Brief micro-celebration (200–300ms scale or flash)</td><td>A checkmark that scales up and settles. Not a slot machine win.</td></tr>
+      </tbody>
+    </table>
   </div>
-  <div class="chapter-title">Measuring<br><em>Design Impact</em></div>
-  <div class="chapter-intro">Design that can't be measured can't be defended. In AI-era products, the metrics that matter have expanded — and some traditional conversion metrics have become dangerously misleading.</div>
+</section>
+
+<div class="divider-chapter" role="separator"><span class="divider-ornament">§</span></div>
+
+
+<!-- ════════════════════════════════════════════════════
+     CHAPTER 8 — METRICS
+════════════════════════════════════════════════════ -->
+<section class="chapter" id="ch8">
+  <div class="chapter-hero reveal">
+    <div class="chapter-hero-number">08</div>
+    <div class="chapter-marker">
+      <span class="chapter-marker-text">Chapter 08</span>
+      <span class="chapter-marker-line"></span>
+    </div>
+    <h2 class="chapter-title">Measuring<br><em>Design Impact</em></h2>
+  </div>
+  <p class="chapter-intro reveal">Design that can't be measured can't be defended. In AI-era products, the metrics that matter have expanded — and some traditional conversion metrics have become dangerously misleading.</p>
 
   <h2>The North Star Problem</h2>
   <p>A north star metric answers: "If this single number improves, is our product genuinely getting better for users?" Most companies track north stars that are proxies for value, not value itself. Optimizing proxies produces Goodhart's Law: "When a measure becomes a target, it ceases to be a good measure."</p>
 
-  <div class="insight insight-blue">
+  <div class="insight insight-blue reveal">
     <div class="insight-label">From "Continuous Discovery Habits" — Teresa Torres</div>
     <p>"Outcome-based roadmaps focus on the change in human behavior that drives business results. Feature-based roadmaps focus on output. The best design teams are measured on outcomes, not output."</p>
   </div>
 
   <h2>The HEART Framework (Google Ventures)</h2>
   <p>Developed by Kerry Rodden at Google, the HEART framework maps user-centered metrics to product goals. It remains one of the most rigorous frameworks for measuring design quality at scale.</p>
-  <div class="framework-grid">
+
+  <div class="framework-grid reveal-stagger">
     <div class="framework-cell"><div class="fw-num" style="color:var(--accent)">H</div><div class="fw-title">Happiness</div><div class="fw-desc">User satisfaction, NPS, CSAT. Attitudinal. Measured via surveys. Caution: users can be happy with bad products.</div></div>
     <div class="framework-cell"><div class="fw-num" style="color:var(--accent)">E</div><div class="fw-title">Engagement</div><div class="fw-desc">Depth of interaction: sessions, actions per session, content created. Not just logins — meaningful engagement with core value.</div></div>
     <div class="framework-cell"><div class="fw-num" style="color:var(--accent)">A</div><div class="fw-title">Adoption</div><div class="fw-desc">New users or features activated. Tracks growth and discoverability. Important for AI features users don't know exist.</div></div>
@@ -719,18 +1176,22 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
   </div>
 
   <h2>AI-Specific Metrics</h2>
-  <table class="comparison">
-    <thead><tr><th>Metric</th><th>What it measures</th><th>Why it matters</th></tr></thead>
-    <tbody>
-      <tr><td>Output acceptance rate</td><td>% of AI suggestions accepted without modification</td><td>High acceptance + high task success = well-calibrated AI. High acceptance + low success = overtrust.</td></tr>
-      <tr><td>Prompt revision rate</td><td>Avg. reprompts per successful task</td><td>More than 2–3 reprompts signals input design or expectation-setting failure.</td></tr>
-      <tr><td>Trust recovery rate</td><td>% of users who return after an AI error</td><td>Measures resilience of the user-AI relationship. Good error design improves this.</td></tr>
-      <tr><td>Output verification rate</td><td>% of AI outputs users independently verify</td><td>Low in high-stakes contexts = overtrust warning. High in low-stakes = friction problem.</td></tr>
-      <tr><td>Feature discovery rate</td><td>% of users who discover AI capabilities organically</td><td>Low rate = poor empty states, onboarding, or in-product guidance design.</td></tr>
-    </tbody>
-  </table>
+  <p>Traditional dashboards miss the most important AI signals. These five metrics belong in every AI product's analytics — and most of them are absent from the standard toolkit.</p>
 
-  <div class="scenario">
+  <div class="comparison-wrap reveal">
+    <table class="comparison">
+      <thead><tr><th>Metric</th><th>What it measures</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Output acceptance rate</td><td>% of AI suggestions accepted without modification</td><td>High acceptance + high task success = well-calibrated AI. High acceptance + low success = overtrust.</td></tr>
+        <tr><td>Prompt revision rate</td><td>Avg. reprompts per successful task</td><td>More than 2–3 reprompts signals input design or expectation-setting failure.</td></tr>
+        <tr><td>Trust recovery rate</td><td>% of users who return after an AI error</td><td>Measures resilience of the user-AI relationship. Good error design improves this.</td></tr>
+        <tr><td>Output verification rate</td><td>% of AI outputs users independently verify</td><td>Low in high-stakes contexts = overtrust warning. High in low-stakes = friction problem.</td></tr>
+        <tr><td>Feature discovery rate</td><td>% of users who discover AI capabilities organically</td><td>Low rate = poor empty states, onboarding, or in-product guidance design.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="scenario reveal">
     <div class="scenario-header">
       <span class="scenario-tag">Real-Life Scenario</span>
       <span class="scenario-divider"></span>
@@ -739,7 +1200,7 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
     <div class="scenario-body">
       <p>Duolingo rejected DAU (daily active users) as its north star. Heavy reliance on streaks drove DAU but also drove anxiety-based engagement — users who hated the app but kept opening it to protect their streak. Their redesigned north star: "Days Active Learning" — where learning meant completing a meaningful lesson, not just opening the app. This nuanced metric change led to product decisions that reduced streak anxiety while improving actual learning outcomes.</p>
       <div class="scenario-section">
-        <div class="scenario-section-label">Design Lesson</div>
+        <div class="scenario-section-label">↳ Design Lesson</div>
         <p>In AI products, beware of optimizing for AI usage (sessions, queries) over AI value (tasks completed, user outcomes achieved). Heavy AI usage with low user value is a symptom, not a goal.</p>
       </div>
     </div>
@@ -748,46 +1209,48 @@ Rate each 1–5 on novelty (not feasibility). Focus on the high-novelty ones.</d
   <h2>Final Reflection: The Designer's Responsibility</h2>
   <p>AI has made many things faster and cheaper to build. It has not made it faster or cheaper to understand what deserves to be built — or what the consequences of building it might be. That judgment remains the designer's fundamental responsibility.</p>
 
-  <div class="insight">
+  <div class="insight reveal">
     <div class="insight-label">Closing Thought</div>
     <p>"Design is not the veneer on top of a product. Design is the product's relationship with the people who use it. In an age of AI, designers are the guardians of that relationship — the translators between capability and humanity, between what machines can do and what people actually need."</p>
   </div>
 
+  <div class="author-reflection reveal">
+    <div class="reflection-avatar">AH</div>
+    <div>
+      <div class="reflection-label">Closing note</div>
+      <p class="reflection-text">"If you've read this far — thank you. Whether you're a junior or staff designer, the principles in this playbook are meant to be argued with, not memorized. Take what's useful, discard what isn't, and ship something humane."</p>
+      <div class="reflection-byline">— Al Aowshad Himel, Product Designer, ParseLab LLC · 2026</div>
+    </div>
+  </div>
+
   <h2>Essential Reading List</h2>
-  <div class="book-ref"><div class="book-spine red"></div><div><div class="book-title">The Design of Everyday Things — Don Norman</div><div class="book-author">Basic Books, Revised Edition 2013</div><div class="book-takeaway">Mental models, affordances, feedback loops. The single most important UX book.</div></div></div>
-  <div class="book-ref"><div class="book-spine blue"></div><div><div class="book-title">Continuous Discovery Habits — Teresa Torres</div><div class="book-author">Product Thinking Press, 2021</div><div class="book-takeaway">How to connect weekly research to product decisions. Outcome-based roadmapping.</div></div></div>
-  <div class="book-ref"><div class="book-spine green"></div><div><div class="book-title">Sprint — Jake Knapp</div><div class="book-author">Simon & Schuster, 2016</div><div class="book-takeaway">The 5-day design sprint methodology. Prototype and test risky assumptions before building.</div></div></div>
-  <div class="book-ref"><div class="book-spine gold"></div><div><div class="book-title">When Coffee and Kale Compete — Alan Klement</div><div class="book-author">CreateSpace, 2018 (free online)</div><div class="book-takeaway">The most practical guide to Jobs-to-be-Done theory in product design.</div></div></div>
-  <div class="book-ref"><div class="book-spine red"></div><div><div class="book-title">Shape Up — Ryan Singer</div><div class="book-author">Basecamp, 2019 (free online)</div><div class="book-takeaway">How to scope, pitch, and build product work in cycles. Excellent for senior designers.</div></div></div>
-  <div class="book-ref"><div class="book-spine blue"></div><div><div class="book-title">Designing with the Mind in Mind — Jeff Johnson</div><div class="book-author">Morgan Kaufmann, 2020</div><div class="book-takeaway">Cognitive psychology applied to UI design. Explains why certain patterns work.</div></div></div>
-  <div class="book-ref"><div class="book-spine green"></div><div><div class="book-title">People + AI Guidebook — Google PAIR</div><div class="book-author">Google, 2019 · pair.withgoogle.com (free)</div><div class="book-takeaway">Practical patterns for designing human-centered AI products. The best free resource for AI UX.</div></div></div>
-  <div class="book-ref"><div class="book-spine gold"></div><div><div class="book-title">The Elements of Typographic Style — Robert Bringhurst</div><div class="book-author">Hartley & Marks, 4th ed. 2012</div><div class="book-takeaway">The definitive text on typography. Read Chapter 2 at minimum — the rules haven't changed.</div></div></div>
-</div>
+  <div class="book-list reveal-stagger">
+    <div class="book-ref"><div class="book-spine red"></div><div><div class="book-title">The Design of Everyday Things — Don Norman</div><div class="book-author">Basic Books, Revised Edition 2013</div><div class="book-takeaway">Mental models, affordances, feedback loops. The single most important UX book.</div></div></div>
+    <div class="book-ref"><div class="book-spine blue"></div><div><div class="book-title">Continuous Discovery Habits — Teresa Torres</div><div class="book-author">Product Thinking Press, 2021</div><div class="book-takeaway">How to connect weekly research to product decisions. Outcome-based roadmapping.</div></div></div>
+    <div class="book-ref"><div class="book-spine green"></div><div><div class="book-title">Sprint — Jake Knapp</div><div class="book-author">Simon &amp; Schuster, 2016</div><div class="book-takeaway">The 5-day design sprint methodology. Prototype and test risky assumptions before building.</div></div></div>
+    <div class="book-ref"><div class="book-spine gold"></div><div><div class="book-title">When Coffee and Kale Compete — Alan Klement</div><div class="book-author">CreateSpace, 2018 (free online)</div><div class="book-takeaway">The most practical guide to Jobs-to-be-Done theory in product design.</div></div></div>
+    <div class="book-ref"><div class="book-spine red"></div><div><div class="book-title">Shape Up — Ryan Singer</div><div class="book-author">Basecamp, 2019 (free online)</div><div class="book-takeaway">How to scope, pitch, and build product work in cycles. Excellent for senior designers.</div></div></div>
+    <div class="book-ref"><div class="book-spine blue"></div><div><div class="book-title">Designing with the Mind in Mind — Jeff Johnson</div><div class="book-author">Morgan Kaufmann, 2020</div><div class="book-takeaway">Cognitive psychology applied to UI design. Explains why certain patterns work.</div></div></div>
+    <div class="book-ref"><div class="book-spine green"></div><div><div class="book-title">People + AI Guidebook — Google PAIR</div><div class="book-author">Google, 2019 · pair.withgoogle.com (free)</div><div class="book-takeaway">Practical patterns for designing human-centered AI products. The best free resource for AI UX.</div></div></div>
+    <div class="book-ref"><div class="book-spine gold"></div><div><div class="book-title">The Elements of Typographic Style — Robert Bringhurst</div><div class="book-author">Hartley &amp; Marks, 4th ed. 2012</div><div class="book-takeaway">The definitive text on typography. Read Chapter 2 at minimum — the rules haven't changed.</div></div></div>
+  </div>
+</section>
 
 
-<!-- FOOTER -->
-<div class="playbook-footer">
+<!-- ════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════ -->
+<footer class="playbook-footer">
   <div>
     <div class="footer-brand">Design in the Age of AI</div>
-    <div style="font-size:11px; color:var(--ink-faint); margin: 4px 0 14px;">Digital Product Design Playbook · 2026 Edition</div>
+    <div class="footer-edition">2026 Edition · v1.0</div>
     <div class="footer-author-name">Al Aowshad Himel</div>
     <div class="footer-author-title">Product Designer, ParseLab LLC</div>
   </div>
   <div class="footer-note">This playbook synthesizes principles from cognitive psychology, UX research methodology, and AI product design. Sources include foundational UX texts, Google PAIR, IDEO, and practitioner case studies from industry. Intended for product and UX designers at all experience levels.</div>
-</div>
+  <div class="footer-mark">— Made with care · ParseLab LLC · 2026 —</div>
+</footer>
 
-<script>
-const chips = document.querySelectorAll('.nav-chip');
-const chapters = document.querySelectorAll('.chapter');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const id = entry.target.id;
-      chips.forEach(c => c.classList.toggle('active', c.getAttribute('href') === '#' + id));
-    }
-  });
-}, { rootMargin: '-20% 0px -60% 0px' });
-chapters.forEach(ch => observer.observe(ch));
-</script>
+<script src="script.js"></script>
 </body>
 </html>
